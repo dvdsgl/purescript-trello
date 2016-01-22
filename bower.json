@@ -1,0 +1,25 @@
+{
+  "name": "purescript-trello",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dvdsgl/purescript-trello",
+  "authors": [
+    "David Siegel <djsiegel@gmail.com>"
+  ],
+  "description": "Trello client bindings for PureScript",
+  "main": "src/Trello.purs",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "trello",
+    "purescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
