@@ -1,2 +1,4 @@
 bower_components
 output
+.psci_modules
+.psci
