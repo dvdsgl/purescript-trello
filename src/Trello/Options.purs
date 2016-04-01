@@ -2,7 +2,6 @@ module Trello.Options where
 
 import Prelude
 
-import Data.Foreign (Foreign())
 import Data.Maybe (Maybe(..))
 import Data.Options (Option(), options, opt, (:=))
 
@@ -16,11 +15,6 @@ instance showState :: Show (State a) where
   show None = "none"
   show Open = "open"
   show Visible = "visible"
-
-{-
-instance optionState :: IsOption (State a) where
-  assoc k state = (optionFn k) := show state
--}
 
 cards :: Option BoardOptions (State Card)
 cards = opt "cards"

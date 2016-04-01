@@ -7,26 +7,21 @@ module Trello
   ) where
 
 import Prelude
-import Data.Maybe
-import Data.Either
-import Data.Function
+import Data.Either (Either(Right, Left))
 import Data.Options (Options(), options)
 
-import Control.Monad.Eff
+import Control.Monad.Eff (Eff)
 import Control.Monad.Trans (lift)
 import Control.Monad.Eff.Exception (Error(), error)
 import Control.Monad.Error.Class (throwError)
 
-import Control.Monad.Reader
-import Control.Monad.Reader.Class
-import Control.Monad.Reader.Trans
-
-import Control.Monad.Aff
+import Control.Monad.Reader.Trans (ReaderT, runReaderT, ask)
+import Control.Monad.Aff (Aff, PureAff, runAff, makeAff)
 
 import Trello.Types
 
-import Data.Foreign
-import Data.Foreign.Class
+import Data.Foreign (Foreign)
+import Data.Foreign.Class (class IsForeign, readWith)
 
 -- TODO make Trello newtype so we don't have to be so general
 type Trello a = forall e. ReaderT Client (Aff e) a
@@ -39,7 +34,7 @@ foreign import _get :: forall e a. Client -> String -> Foreign -> (Error -> Eff 
 getAff :: Client -> String -> Foreign -> PureAff Foreign
 getAff client path opts = makeAff (_get client path opts)
 
-get :: forall a r. (IsForeign a) => String -> Foreign -> Trello a
+get :: forall a. (IsForeign a) => String -> Foreign -> Trello a
 get path opts = do
   client <- ask
   object <- lift $ getAff client path opts

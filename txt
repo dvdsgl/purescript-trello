@@ -1,0 +1,335 @@
+* Building project in /Users/david/build/purescript-trello
+Warning 1 of 25:
+
+  in module Trello.Types
+  at /Users/david/build/purescript-trello/src/Trello/Types.purs line 5, column 1 - line 6, column 1
+
+    Module Data.Maybe has unspecified imports, consider using the explicit form:
+
+      import Data.Maybe (Maybe(Just), fromMaybe)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 2 of 25:
+
+  in module Trello.Types
+  at /Users/david/build/purescript-trello/src/Trello/Types.purs line 7, column 1 - line 8, column 1
+
+    Module Data.Monoid has unspecified imports, consider using the explicit form:
+
+      import Data.Monoid (class Monoid, mempty)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 3 of 25:
+
+  in module Trello.Types
+  at /Users/david/build/purescript-trello/src/Trello/Types.purs line 3, column 1 - line 5, column 1
+
+    Module Prelude has unspecified imports, consider using the explicit form:
+
+      import Prelude (class Semigroup, class Eq, class Show, (<>), (==), asTypeOf, return, ($), (<$>), bind)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 4 of 25:
+
+  in module Trello.Options
+  at /Users/david/build/purescript-trello/src/Trello/Options.purs line 5, column 1 - line 6, column 1
+
+    The import of module Data.Foreign is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 5 of 25:
+
+  in module Trello.Options
+  at /Users/david/build/purescript-trello/src/Trello/Options.purs line 6, column 1 - line 7, column 1
+
+    The import of module Data.Maybe is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 6 of 25:
+
+  in module Trello.Options
+  at /Users/david/build/purescript-trello/src/Trello/Options.purs line 7, column 1 - line 9, column 1
+
+    The import of module Data.Options contains the following unused references:
+
+      options
+      (:=)
+
+    It could be replaced with:
+
+      import Data.Options (Option, opt)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedExplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 7 of 25:
+
+  in module Trello.Options
+  at /Users/david/build/purescript-trello/src/Trello/Options.purs line 3, column 1 - line 5, column 1
+
+    Module Prelude has unspecified imports, consider using the explicit form:
+
+      import Prelude (class Show)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 8 of 25:
+
+  in module Trello.Options
+  at /Users/david/build/purescript-trello/src/Trello/Options.purs line 9, column 1 - line 11, column 1
+
+    Module Trello.Types has unspecified imports, consider using the explicit form:
+
+      import Trello.Types (OrganizationOptions, BoardOptions, CardList, Card)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 9 of 25:
+
+  in module Trello.Query
+  at /Users/david/build/purescript-trello/src/Trello/Query.purs line 4, column 1 - line 5, column 1
+
+    Module Data.List has unspecified imports, consider using the explicit form:
+
+      import Data.List (List)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 10 of 25:
+
+  in module Trello.Query
+  at /Users/david/build/purescript-trello/src/Trello/Query.purs line 5, column 1 - line 6, column 1
+
+    The import of type Maybe includes data constructors but only the type is used
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedDctorImport for more information,
+  or to contribute content related to this warning.
+
+Warning 11 of 25:
+
+  in module Trello.Query
+  at /Users/david/build/purescript-trello/src/Trello/Query.purs line 3, column 1 - line 4, column 1
+
+    Module Prelude has unspecified imports, consider using the explicit form:
+
+      import Prelude (return, ($), (==), bind)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 12 of 25:
+
+  in module Trello.Query
+  at /Users/david/build/purescript-trello/src/Trello/Query.purs line 9, column 1 - line 11, column 1
+
+    Module Trello.Types has unspecified imports, consider using the explicit form:
+
+      import Trello.Types (Board(Board), Card(Card), CardList(CardList), Label(Label))
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 13 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 42, column 1 - line 43, column 1
+
+    Type variable 'r' was declared but not used.
+
+  in type declaration for get
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedTypeVar for more information,
+  or to contribute content related to this warning.
+
+Warning 14 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 24, column 1 - line 26, column 1
+
+    Module Control.Monad.Aff has unspecified imports, consider using the explicit form:
+
+      import Control.Monad.Aff (Aff, PureAff, runAff, makeAff)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 15 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 15, column 1 - line 16, column 1
+
+    Module Control.Monad.Eff has unspecified imports, consider using the explicit form:
+
+      import Control.Monad.Eff (Eff)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 16 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 20, column 1 - line 21, column 1
+
+    The import of module Control.Monad.Reader is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 17 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 21, column 1 - line 22, column 1
+
+    The import of module Control.Monad.Reader.Class is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 18 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 22, column 1 - line 24, column 1
+
+    Module Control.Monad.Reader.Trans has unspecified imports, consider using the explicit form:
+
+      import Control.Monad.Reader.Trans (ReaderT, runReaderT, ask)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 19 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 11, column 1 - line 12, column 1
+
+    Module Data.Either has unspecified imports, consider using the explicit form:
+
+      import Data.Either (Either(Right, Left))
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 20 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 28, column 1 - line 29, column 1
+
+    Module Data.Foreign has unspecified imports, consider using the explicit form:
+
+      import Data.Foreign (Foreign)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 21 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 29, column 1 - line 32, column 1
+
+    Module Data.Foreign.Class has unspecified imports, consider using the explicit form:
+
+      import Data.Foreign.Class (class IsForeign, readWith)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 22 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 12, column 1 - line 13, column 1
+
+    The import of module Data.Function is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 23 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 10, column 1 - line 11, column 1
+
+    The import of module Data.Maybe is redundant
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-UnusedImport for more information,
+  or to contribute content related to this warning.
+
+Warning 24 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 9, column 1 - line 10, column 1
+
+    Module Prelude has unspecified imports, consider using the explicit form:
+
+      import Prelude (Unit, (<<<), ($), (<>), (++), return, show, bind)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+Warning 25 of 25:
+
+  in module Trello
+  at /Users/david/build/purescript-trello/src/Trello.purs line 26, column 1 - line 28, column 1
+
+    Module Trello.Types has unspecified imports, consider using the explicit form:
+
+      import Trello.Types (Credentials, Organization, OrganizationOptions, Board, BoardOptions, Id)
+
+
+
+  See https://github.com/purescript/purescript/wiki/Error-Code-ImplicitImport for more information,
+  or to contribute content related to this warning.
+
+
+* Build successful.

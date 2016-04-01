@@ -2,15 +2,15 @@ module Trello.Types where
 
 import Prelude
 
-import Data.Maybe
-import Data.List
-import Data.Monoid
-import Data.Foldable (any, find)
+import Data.Maybe (Maybe(..), fromMaybe)
+import Data.List (List, toList)
+import Data.Monoid (class Monoid, mempty)
+import Data.Foldable (find)
 
-import Data.Foreign
+import Data.Foreign (F, Foreign)
 import Data.Foreign.Null (runNull)
 import Data.Foreign.NullOrUndefined (runNullOrUndefined)
-import Data.Foreign.Class
+import Data.Foreign.Class (class IsForeign, readProp)
 
 type Id = String
 type Url = String
