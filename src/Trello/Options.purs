@@ -1,10 +1,7 @@
 module Trello.Options where
 
 import Prelude
-
-import Data.Maybe (Maybe(..))
-import Data.Options (Option(), options, opt, (:=))
-
+import Data.Options (Option, opt)
 import Trello.Types
 
 data State a = All | Closed | None | Open | Visible

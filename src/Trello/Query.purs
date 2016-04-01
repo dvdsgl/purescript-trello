@@ -1,8 +1,8 @@
 module Trello.Query where
 
 import Prelude
-import Data.List
-import Data.Maybe (Maybe(..))
+import Data.List (List)
+import Data.Maybe (Maybe)
 import Data.Foldable (any, find)
 import Control.MonadPlus (guard)
 
